@@ -1,7 +1,7 @@
 {
   "name": "membersapp",
   "version": "1.0.0",
-  "description": "A simple crash-course content for ExpressJS.",
+  "description": "Simple crash-course content member application with basic API functionalities.",
   "main": "index.js",
   "scripts": {
     "start": "node index",

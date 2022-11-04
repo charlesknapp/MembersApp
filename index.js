@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended: false} ))
 
 // Homepage route (otherwise a static folder would work)
 app.get('/', (req, res) => res.render('index', {
-    title: 'MembersApp',
+    title: 'Members App',
     members
 }));
 

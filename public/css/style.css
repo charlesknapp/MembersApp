@@ -1,16 +1,46 @@
 html {
     font-family: 'Bangers', cursive;
-
+    max-width: auto;
+    height: 100%;
+    background: url(https://i.ibb.co/p3swYct/member-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 body {
     margin: 0 auto;
-    max-width: 925px;
+    max-width: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 3rem;
+    background: linear-gradient(360deg, rgba(196, 208, 218, 0.95) 0%, rgba(235,243,249,0.95) 100%);
 }
-h1, h2, h3, p {
-    color: silver;
+h1, h2, h3 {
+    color: rgb(85, 85, 85);
+}
+.form-control {
+    background: rgba(255,255,255,0.50);
 }
 .member-form {
-    background: #acbed631;
+    background: rgba(154,171,195,0.19);
     padding: 20px;
     border-radius: 5px;
+}
+.control-buttons {
+    display: flex;
+    column-gap: 10px;
+    flex-grow: 1;
+}
+.list-group {
+    --bs-list-group-bg: rgba(154,171,195,0.19);
+}
+.list-group-item {
+    border: 1px solid rgba(255,255,255,0.25);
+}
+.list-group-item:hover {
+    background: rgba(154,171,195,0.39);
+    font-weight: bold;
 }
