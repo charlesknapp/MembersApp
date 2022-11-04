@@ -1,0 +1,16 @@
+html {
+    font-family: 'Bangers', cursive;
+
+}
+body {
+    margin: 0 auto;
+    max-width: 925px;
+}
+h1, h2, h3, p {
+    color: silver;
+}
+.member-form {
+    background: #acbed631;
+    padding: 20px;
+    border-radius: 5px;
+}

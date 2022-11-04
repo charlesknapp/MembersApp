@@ -1,0 +1,30 @@
+{
+  "name": "express-crash-course",
+  "version": "1.0.0",
+  "description": "A simple crash-course content for ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesknapp/express-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesknapp/express-crash-course/issues"
+  },
+  "homepage": "https://github.com/charlesknapp/express-crash-course#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "moment": "^2.29.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
