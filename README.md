@@ -1,2 +1,2 @@
-# express-crash-course
-A simple crash-course content for ExpressJS.
+# MembersApp (API)
+Simple crash-course content member application with basic API functionalities.
